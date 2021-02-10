@@ -1,0 +1,33 @@
+A How To Guide on installing git on Mac, Windows and Linux. 
+
+First it is important to realize what github is, and the purpose of git. 
+Github.com is a respitory system that allows enterprises, coders, programers, individuals and more to collaborate and work on projects as a team or independantly. Github.com also allows others to add comments to your projects so long as you allow these permissions in your settings. 
+Git on the otherhand is the command line interface that allows for these projects, respitories and functions to be uploaded on the website as well as your local computer. 
+
+Installing Git on Mac through the terminal (command line interface)
+
+Step one. Open the terminal on your Mac system.
+Step two. Install homebrew if you don't have it already.
+In the case that you don't on your command line type: $ brew install git
+Step three: Set your Git username: $ git config --global user.name "theusernameofyourchoice" (for every repository)
+Step four: Confirm that you have set the username correctly: git config --global user.name > yourusername
+Step five: Type in terminal: $ git config --global youremail@address
+Step six: Confirm that you have set the email address correctly: $ git config --global user.email >youremail@address
+Step seven: Make sure you add your email address to your github.com account so that your comments go to your projects.
+
+Installing Git on Windows
+
+Step one: Go to git-scm.com/download/win
+Step two: Choose your operating system
+Step three: Follow the prompts through the download
+
+Installing Git on Linux 
+
+Step one: Open Linux terminal (command line interface)
+Step two: Type in # apt-get install git or sudo apt-get install git (that is if the first line doesn't work)
+Step three: Verify that you have installed git: sudo git --version
+
+Resources:
+
+docs.github.com/en/github/getting-started-with-github/set-up-git
+git-scm.com/downloads
